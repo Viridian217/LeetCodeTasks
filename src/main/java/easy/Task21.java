@@ -2,8 +2,8 @@ package easy;
 
 public class Task21 {
     public static class ListNode {
-        int val;
-        ListNode next;
+        public int val;
+        public ListNode next;
 
         ListNode() {
         }
