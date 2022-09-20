@@ -1,10 +1,6 @@
 package medium;
 
-import easy.Task21;
-import medium.Task142.ListNode;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class Task142Test {
 

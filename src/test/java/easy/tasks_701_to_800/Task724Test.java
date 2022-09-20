@@ -1,5 +1,6 @@
-package easy;
+package easy.tasks_701_to_800;
 
+import easy.tasks_701_to_800.Task724;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

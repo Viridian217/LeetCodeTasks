@@ -1,4 +1,4 @@
-package easy;
+package easy.tasks_701_to_800;
 
 public class Task724 {
     public int pivotIndex(int[] nums) {

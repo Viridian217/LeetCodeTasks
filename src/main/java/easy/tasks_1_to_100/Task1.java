@@ -1,4 +1,4 @@
-package easy;
+package easy.tasks_1_to_100;
 
 import java.util.HashMap;
 import java.util.Map;
