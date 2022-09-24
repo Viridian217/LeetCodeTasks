@@ -1,8 +1,6 @@
 package medium;
 
-import java.util.HashSet;
-import java.util.Hashtable;
-import java.util.Set;
+import java.util.*;
 
 public class Task142 {
     static class ListNode {
@@ -16,8 +14,8 @@ public class Task142 {
     }
 
     public ListNode detectCycle(ListNode head) {
-        Set set = new HashSet<>();
-        while (head.next!=null){
+        Set<ListNode> set = new HashSet<>();
+        while (head != null && head.next != null){
             if (set.contains(head)){
                 return head;
             }

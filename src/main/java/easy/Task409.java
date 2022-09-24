@@ -14,6 +14,23 @@ public class Task409 {
                 hashtable.put(aChar, 1);
             }
         }
-        return 0;
+        int[] count = {0};
+        int[] sum = {0};
+        hashtable.values().forEach(obj -> {
+            if (obj % 2 == 0){
+                sum[0] += obj;
+            }
+            else if (obj > 2) {
+                sum[0] += obj - 1;
+                count[0]++;
+            }
+            else {
+                count[0]++;
+            }
+        });
+        if (count[0] != 0){
+            sum[0]++;
+        }
+        return sum[0];
     }
 }

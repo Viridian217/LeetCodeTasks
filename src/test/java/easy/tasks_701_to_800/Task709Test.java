@@ -1,4 +1,4 @@
-package easy;
+package easy.tasks_701_to_800;
 
 import org.junit.jupiter.api.Test;
 

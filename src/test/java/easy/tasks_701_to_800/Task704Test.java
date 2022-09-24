@@ -1,9 +1,8 @@
-package easy;
+package easy.tasks_701_to_800;
 
+import easy.tasks_701_to_800.Task704;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class Task704Test {
     private final Task704 task704 = new Task704();

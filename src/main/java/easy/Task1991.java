@@ -1,7 +1,7 @@
 package easy;
 
-public class Task724 {
-    public int pivotIndex(int[] nums) {
+public class Task1991 {
+    public int findMiddleIndex(int[] nums) {
         int pivotIndex = 0;
         for (int i = 0; i < nums.length; i++) {
             int currentSumRight = 0;
