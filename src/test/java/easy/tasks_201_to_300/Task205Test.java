@@ -1,6 +1,6 @@
-package easy.tasks_200_to_300.Task278;
+package easy.tasks_201_to_300;
 
-import easy.tasks_200_to_300.Task205;
+import easy.tasks_201_to_300.Task205;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

@@ -1,7 +1,5 @@
-package easy.tasks_200_to_300;
+package easy.tasks_201_to_300;
 
-
-import java.util.List;
 
 public class Task206 {
     public static class ListNode {
