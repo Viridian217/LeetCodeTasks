@@ -1,4 +1,4 @@
-package easy;
+package easy.tasks_101_to_200;
 
 import java.util.*;
 

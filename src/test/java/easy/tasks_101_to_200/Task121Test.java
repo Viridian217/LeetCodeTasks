@@ -1,9 +1,8 @@
-package easy;
+package easy.tasks_101_to_200;
 
+import easy.tasks_101_to_200.Task121;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class Task121Test {
     private final Task121 task121 = new Task121();

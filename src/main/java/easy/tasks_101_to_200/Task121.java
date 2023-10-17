@@ -1,4 +1,4 @@
-package easy;
+package easy.tasks_101_to_200;
 
 public class Task121 {
     public int maxProfit(int[] prices) {

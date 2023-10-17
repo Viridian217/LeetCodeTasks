@@ -1,14 +1,12 @@
-package easy;
+package easy.tasks_201_to_300;
 
+import easy.tasks_201_to_300.Task206;
 import org.assertj.core.api.Assertions;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class Task206Test {
 
