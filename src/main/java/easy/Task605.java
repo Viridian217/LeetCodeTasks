@@ -6,15 +6,13 @@ public class Task605 {
         int count = 0;
         for (int i = 0; i < flowerbed.length; i++) {
             if (flowerbed[i] == 1) temp = true;
-            if (flowerbed[i] == 0) {
+            else {
                 if (flowerbed.length - 1 > i && flowerbed[i] == 0 && flowerbed[i + 1] == 0 && !temp) {
-                    flowerbed[i] = 1;
                     count++;
                     temp = true;
-                }   else if (flowerbed.length - 1 == i && !temp) {
+                } else if (flowerbed.length - 1 == i && !temp) {
                     count++;
-                }
-                else {
+                } else {
                     temp = false;
                 }
             }
